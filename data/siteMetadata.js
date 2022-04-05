@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'ScopeCreep',
   author: 'Daniele Salatti',
   headerTitle: 'ScopeCreep',
-  description: 'Software Development',
+  description: 'This is the beginning of a powerful collaboration',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://scopecreep.dev',
