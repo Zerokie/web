@@ -1,6 +1,7 @@
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
+import Image from '@/components/Image'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
@@ -27,26 +28,12 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           </h1>
 
           <p className="mt-6 text-gray-500 dark:text-gray-300">
-            Leverage years of experience in top tech companies
+            Zerokie is a new search engine that lets you support the small businesses around you
           </p>
-          {/*
-          <div className="mx-auto mt-6 w-full max-w-sm rounded-md border bg-transparent focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 focus-within:ring-opacity-40 dark:border-gray-700 dark:focus-within:border-blue-300">
-            <form className="flex flex-col md:flex-row">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                className="m-1 h-10 flex-1 appearance-none border-none bg-transparent px-4 py-2 text-gray-700 placeholder-gray-400 focus:placeholder-transparent focus:outline-none focus:ring-0 dark:text-gray-200"
-              />
+        </div>
 
-              <button
-                type="button"
-                className="m-1 h-10 transform rounded-md bg-blue-500 px-4 py-2 text-white transition-colors duration-200 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none"
-              >
-                Join Us
-              </button>
-            </form>
-          </div>
-          */}
+        <div className="mt-10 flex justify-center">
+          <Image src="/static/images/hero.svg" alt="Zerokie" className="h-96" />
         </div>
 
         <div className="mx-auto mt-10 max-w-sm">

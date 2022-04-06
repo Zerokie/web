@@ -1,25 +1,25 @@
 const siteMetadata = {
-  title: 'ScopeCreep',
-  author: 'Daniele Salatti',
-  headerTitle: 'ScopeCreep',
-  description: 'This is the beginning of a powerful collaboration',
+  title: 'Zerokie',
+  author: 'Scope Creep LLC',
+  headerTitle: 'Zerokie',
+  description: 'Shop locally and support your community',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://scopecreep.dev',
-  siteRepo: 'https://github.com/ScopeCreep/web',
-  siteLogo: '/static/images/logo.jpg',
+  siteRepo: 'https://github.com/Zerokie/web',
+  siteLogo: '/static/images/zerokie.png',
   image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'daniele@scopecreep.dev',
-  github: 'https://github.com/ScopeCreepDev',
-  twitter: 'https://twitter.com/ScopeCreepLLC',
+  github: 'https://github.com/Zerokie',
+  twitter: 'https://twitter.com/ZerokieHQ',
   // facebook: 'https://facebook.com',
   // youtube: 'https://www.youtube.com/channel/',
-  linkedin: 'https://www.linkedin.com/in/danielesalatti',
+  // linkedin: 'https://www.linkedin.com/in/danielesalatti',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics, umami or googleAnalytics
-    plausibleDataDomain: 'scopecreep.dev', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'zerokie.com', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX

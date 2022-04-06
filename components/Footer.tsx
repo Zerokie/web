@@ -19,14 +19,15 @@ export default function Footer() {
               </div>
 
               <p className="mt-2 max-w-md text-gray-500 dark:text-gray-400">
-                Find us on social media
+                Created with the goal of solving the problems of small and medium-sized brick and
+                mortar stores
               </p>
 
               <div className="-mx-2 mt-4 ml-1 flex space-x-4">
                 <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
                 <SocialIcon kind="github" href={siteMetadata.github} size={6} />
-                {/*<SocialIcon kind="facebook" href={siteMetadata.facebook} size={6} />*/}
-                {/*<SocialIcon kind="youtube" href={siteMetadata.youtube} size={6} />*/}
+                <SocialIcon kind="facebook" href={siteMetadata.facebook} size={6} />
+                <SocialIcon kind="youtube" href={siteMetadata.youtube} size={6} />
                 <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
                 <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} />
               </div>
@@ -36,24 +37,23 @@ export default function Footer() {
           <div className="mt-6 lg:mt-0 lg:flex-1">
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
               <div>
-                <h3 className="uppercase text-gray-700 dark:text-white">About</h3>
+                {/*
+                <h3 className="uppercase text-gray-700 dark:text-white">Products</h3>
                 <Link
-                  href="/about"
+                  href="https://zerokie.com"
                   className="mt-2 block text-sm text-gray-600 hover:underline dark:text-gray-400"
                 >
-                  About
-                </Link>
+                  Zerokie
+                </Link>*/}
+              </div>
+
+              <div>
+                <h3 className="uppercase text-gray-700 dark:text-white">About</h3>
                 <Link
-                  href="/wip"
+                  href="/company"
                   className="mt-2 block text-sm text-gray-600 hover:underline dark:text-gray-400"
                 >
                   Company
-                </Link>
-                <Link
-                  href="/wip"
-                  className="mt-2 block text-sm text-gray-600 hover:underline dark:text-gray-400"
-                >
-                  Collaborations
                 </Link>
               </div>
 
@@ -64,16 +64,6 @@ export default function Footer() {
                   className="mt-2 block text-sm text-gray-600 hover:underline dark:text-gray-400"
                 >
                   Articles
-                </Link>
-              </div>
-
-              <div>
-                <h3 className="uppercase text-gray-700 dark:text-white">Products</h3>
-                <Link
-                  href="https://zerokie.com"
-                  className="mt-2 block text-sm text-gray-600 hover:underline dark:text-gray-400"
-                >
-                  Zerokie
                 </Link>
               </div>
 
@@ -94,12 +84,10 @@ export default function Footer() {
 
         <div>
           <p className="text-center text-gray-800 dark:text-white">
-            by {siteMetadata.author}
-            {` • `}
             {`© ${new Date().getFullYear()}`}
             {` • `}
             {/*<Link href="/">{siteMetadata.title}</Link>*/}
-            <Link href="https://scopecreep.dev">ScopeCreep, LLC</Link>
+            <Link href="https://scopecreep.dev">Scope Creep, LLC</Link>
           </p>
         </div>
       </div>
