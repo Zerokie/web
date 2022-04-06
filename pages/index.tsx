@@ -134,7 +134,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           </div>
         </div>
       </div>
-
+      {/* 
       <div className="mb-12 divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl">
@@ -206,7 +206,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             All Posts &rarr;
           </Link>
         </div>
-      )}
+      )}*/}
       {siteMetadata.newsletter.provider !== '' && (
         <div className="mb-12 flex items-center justify-center pt-4">
           <NewsletterForm />
