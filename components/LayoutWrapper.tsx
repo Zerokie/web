@@ -14,10 +14,10 @@ interface Props {
 
 const LayoutWrapper = ({ children }: Props) => {
   return (
-    <>
+    <div className="flex h-screen grid-cols-1 flex-col justify-between">
       <SectionContainer>
-        <div className="flex flex-col justify-between">
-          <header className="flex items-center justify-between py-10">
+        <div className="w-3xl mx-auto max-w-3xl flex-col justify-between xl:max-w-5xl">
+          <header className="flex grow items-center justify-between py-10">
             <div>
               <Link href="/" aria-label={siteMetadata.headerTitle}>
                 <div className="flex items-center justify-between">
@@ -61,7 +61,7 @@ const LayoutWrapper = ({ children }: Props) => {
       </SectionContainer>
 
       <Footer />
-    </>
+    </div>
   )
 }
 
