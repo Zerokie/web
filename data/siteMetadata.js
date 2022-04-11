@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Shop locally and support your community',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://scopecreep.dev',
+  siteUrl: 'https://zerokie.com',
   siteRepo: 'https://github.com/Zerokie/web',
   siteLogo: '/static/images/zerokie.png',
   image: '/static/images/avatar.jpg',
